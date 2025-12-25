@@ -1,9 +1,9 @@
 import React from 'react';
 import { TestScenario } from '../types';
-import { calculateDashboardSummary } from '../utils/calculations';
-import { StatCard } from '../components/common/StatCard';
-import { MetricsChart } from '../components/dashboard/MetricsChart';
-import { PlatformComparison } from '../components/dashboard/PlatformComparison';
+import { calculateDashboardSummary } from '../../../utils/calculations';
+import { StatCard } from '../../components/common/StatCard';
+import { MetricsChart } from '../../components/dashboard/MetricsChart';
+import { PlatformComparison } from '../../components/dashboard/PlatformComparison';
 import { CheckCircle, XCircle, AlertTriangle, Clock, TrendingUp } from 'lucide-react';
 
 interface DashboardProps {

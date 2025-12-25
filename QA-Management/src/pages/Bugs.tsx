@@ -1,7 +1,7 @@
 import React from 'react';
 import { Bug } from '../types';
-import { BugsList } from '../components/bugs/BugsList';
-import { Button } from '../components/common/Button';
+import { BugsList } from '../../components/bugs/BugsList';
+import { Button } from '../../components/common/Button';
 import { Plus, RefreshCw } from 'lucide-react';
 
 interface BugsProps {

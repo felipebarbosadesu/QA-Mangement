@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../components/common/Button';
+import { Button } from '../../components/common/Button';
 import { Save } from 'lucide-react';
 
 export const Settings: React.FC = () => {

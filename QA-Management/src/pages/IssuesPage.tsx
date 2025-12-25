@@ -1,6 +1,6 @@
 import React from 'react';
 import { Issue } from '../types';
-import { IssuesTabs } from '../components/issues/IssuesTabs';
+import { IssuesTabs } from '../../components/issues/IssuesTabs';
 
 interface IssuesPageProps {
   issues: Issue[];

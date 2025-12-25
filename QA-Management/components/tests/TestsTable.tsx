@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { TestScenario, StatusType } from '../../types';
 import { Badge } from '../common/Badge';
-import { formatDate } from '../../utils/calculations';
+import { formatDate } from '../../../utils/calculations';
 import { ChevronDown, ChevronUp, Edit, Trash2 } from 'lucide-react';
 
 interface TestsTableProps {

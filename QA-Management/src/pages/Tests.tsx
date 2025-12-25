@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { TestScenario, StatusType } from '../types';
-import { TestsTable } from '../components/tests/TestsTable';
-import { TestModal } from '../components/tests/TestModal';
-import { ImportModal } from '../components/tests/ImportModal';
-import { Button } from '../components/common/Button';
+import { TestsTable } from '../../components/tests/TestsTable';
+import { TestModal } from '../../components/tests/TestModal';
+import { ImportModal } from '../../components/tests/ImportModal';
+import { Button } from '../../components/common/Button';
 import { Plus, Download, Upload } from 'lucide-react';
 
 interface TestsProps {
