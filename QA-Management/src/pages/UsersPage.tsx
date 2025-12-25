@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, UserRole } from '../types';
+import type { User, UserRole } from '../types';
 import { Button } from '../components/common/Button';
 import { Plus, UserCheck, UserX, Edit } from 'lucide-react';
 

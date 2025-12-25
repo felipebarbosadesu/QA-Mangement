@@ -1,5 +1,5 @@
 import React from 'react';
-import { TestScenario } from '../types';
+import type { TestScenario } from '../types';
 import { calculateDashboardSummary } from '../utils/calculations';
 import { StatCard } from '../components/common/StatCard';
 import { MetricsChart } from '../components/dashboard/MetricsChart';

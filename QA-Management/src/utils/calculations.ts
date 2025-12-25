@@ -1,4 +1,4 @@
-import { TestScenario, DashboardSummary, StatusType } from '../types';
+import type { TestScenario, DashboardSummary, StatusType } from '../types';
 
 export const calculateDashboardSummary = (
   tests: TestScenario[],

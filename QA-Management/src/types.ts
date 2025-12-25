@@ -51,6 +51,9 @@ export interface Issue {
   updatedAt: Date;
 }
 
+// Backwards-compat alias
+export type Bug = Issue;
+
 export interface ProjectInfo {
   name: string;
   version: string;

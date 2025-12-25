@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TestScenario, StatusType } from '../types';
+import type { TestScenario, StatusType } from '../types';
 import { TestsTable } from '../components/tests/TestsTable';
 import { TestModal } from '../components/tests/TestModal';
 import { ImportModal } from '../components/tests/ImportModal';

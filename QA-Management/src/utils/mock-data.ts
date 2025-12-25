@@ -1,4 +1,4 @@
-import { TestScenario, Issue, User, ProjectInfo } from '../types';
+import type { TestScenario, Issue, User, ProjectInfo } from '../types';
 
 export const mockTests: TestScenario[] = [
   {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProjectInfo } from '../types';
+import type { ProjectInfo } from '../types';
 import { Package, Target, Shield, Info } from 'lucide-react';
 
 interface AboutPageProps {
